@@ -1,6 +1,6 @@
 #!/bin/bash
 
-diploShicPath="~/libaries/diploSHIC/diploSHIC.py"
+diploShicPath="~/libraries/diploSHIC/diploSHIC.py"
 
 mkdir -p trainingFvecs trainingFvecLogs
 echo "calculating neutral stats for training sims"

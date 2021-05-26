@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 classifierPath, testDir, predFile, figFile = sys.argv[1:]
 
-diploShicPath="~/libraries/diploSHIC/diploSHIC.py"
+diploShicPath="./diploSHIC.py"
 preds = {}
 for fname in os.listdir(testDir):
     className = fname.split(".")[0]

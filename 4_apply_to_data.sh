@@ -2,7 +2,7 @@
 
 vcfFile=preCookedData/CEU50.chr2LCT.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz
 fvecFile=CEU50.chr2LCT.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.fvec
-diploShicPath="$HOME/libraries/diploSHIC/diploSHIC.py"
+diploShicPath="./diploSHIC.py"
 
 # The command below calculates feature vectors on a vcf file
 # To see how it works, type:
